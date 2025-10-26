@@ -28,7 +28,7 @@ jobs:
       fail-fast: false
       matrix:
         arch:
-          - arm_cortex-a5_vfpv4
+          - aarch64_cortex-a53
           - x86_64
           
         sdk:
